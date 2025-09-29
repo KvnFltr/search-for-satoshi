@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+<title>Source code</title>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+</head>
+<body>
+<main role="main">
+<div class="sourceContainer">
+<pre><span class="sourceLineNo">001</span><a id="line.1">import java.util.List;</a>
+<span class="sourceLineNo">002</span><a id="line.2">import java.util.ArrayList;</a>
+<span class="sourceLineNo">003</span><a id="line.3">import java.util.Random;</a>
+<span class="sourceLineNo">004</span><a id="line.4">import java.util.Set;</a>
+<span class="sourceLineNo">005</span><a id="line.5"></a>
+<span class="sourceLineNo">006</span><a id="line.6">/**</a>
+<span class="sourceLineNo">007</span><a id="line.7"> * La classe RoomRandomizer est utilisÃ©e pour sÃ©lectionner alÃ©atoirement une piÃ¨ce parmi une liste de piÃ¨ces.</a>
+<span class="sourceLineNo">008</span><a id="line.8"> * Elle utilise un objet Random pour fonctionner.</a>
+<span class="sourceLineNo">009</span><a id="line.9"> * </a>
+<span class="sourceLineNo">010</span><a id="line.10"> * @author K.FELTRIN</a>
+<span class="sourceLineNo">011</span><a id="line.11"> * @version 30/04/2023</a>
+<span class="sourceLineNo">012</span><a id="line.12"> */</a>
+<span class="sourceLineNo">013</span><a id="line.13">public class RoomRandomizer {</a>
+<span class="sourceLineNo">014</span><a id="line.14">    </a>
+<span class="sourceLineNo">015</span><a id="line.15">    // La liste des piÃ¨ces Ã  choisir alÃ©atoirement</a>
+<span class="sourceLineNo">016</span><a id="line.16">    private List&lt;Room&gt; aRooms;</a>
+<span class="sourceLineNo">017</span><a id="line.17">    </a>
+<span class="sourceLineNo">018</span><a id="line.18">    // L'objet Random utilisÃ© pour sÃ©lectionner alÃ©atoirement une piÃ¨ce</a>
+<span class="sourceLineNo">019</span><a id="line.19">    private Random aRandom;</a>
+<span class="sourceLineNo">020</span><a id="line.20">    private boolean aRandomizer;</a>
+<span class="sourceLineNo">021</span><a id="line.21">    private List&lt;Room&gt; aRoomsArray;</a>
+<span class="sourceLineNo">022</span><a id="line.22"></a>
+<span class="sourceLineNo">023</span><a id="line.23">    /**</a>
+<span class="sourceLineNo">024</span><a id="line.24">     * Construit un nouvel objet RoomRandomizer avec une liste de piÃ¨ces vide et un nouvel objet Random.</a>
+<span class="sourceLineNo">025</span><a id="line.25">     */</a>
+<span class="sourceLineNo">026</span><a id="line.26">    public RoomRandomizer() {</a>
+<span class="sourceLineNo">027</span><a id="line.27">        // Initialisation de la liste des piÃ¨ces avec une liste vide</a>
+<span class="sourceLineNo">028</span><a id="line.28">        this.aRooms = new ArrayList&lt;Room&gt; ();</a>
+<span class="sourceLineNo">029</span><a id="line.29">        this.aRandomizer = false;</a>
+<span class="sourceLineNo">030</span><a id="line.30">        // Initialisation de l'objet Random</a>
+<span class="sourceLineNo">031</span><a id="line.31">        this.aRandom = new Random ();</a>
+<span class="sourceLineNo">032</span><a id="line.32">    }// RoomRandomizer ()</a>
+<span class="sourceLineNo">033</span><a id="line.33">    </a>
+<span class="sourceLineNo">034</span><a id="line.34">    /**</a>
+<span class="sourceLineNo">035</span><a id="line.35">     * Ajoute une piÃ¨ce Ã  la liste des piÃ¨ces pouvant Ãªtre choisies alÃ©atoirement.</a>
+<span class="sourceLineNo">036</span><a id="line.36">     * </a>
+<span class="sourceLineNo">037</span><a id="line.37">     * @param pRoom La piÃ¨ce Ã  ajouter Ã  la liste</a>
+<span class="sourceLineNo">038</span><a id="line.38">     */</a>
+<span class="sourceLineNo">039</span><a id="line.39">    public void addRoom(final Room pRoom) {</a>
+<span class="sourceLineNo">040</span><a id="line.40">        // Ajout de la piÃ¨ce Ã  la liste</a>
+<span class="sourceLineNo">041</span><a id="line.41">        this.aRooms.add(pRoom);</a>
+<span class="sourceLineNo">042</span><a id="line.42">    }// addRoom ()</a>
+<span class="sourceLineNo">043</span><a id="line.43">    </a>
+<span class="sourceLineNo">044</span><a id="line.44">    /**</a>
+<span class="sourceLineNo">045</span><a id="line.45">     * Renvoie une piÃ¨ce choisie alÃ©atoirement dans la liste des piÃ¨ces.</a>
+<span class="sourceLineNo">046</span><a id="line.46">     * </a>
+<span class="sourceLineNo">047</span><a id="line.47">     * @return Une piÃ¨ce choisie alÃ©atoirement</a>
+<span class="sourceLineNo">048</span><a id="line.48">     */</a>
+<span class="sourceLineNo">049</span><a id="line.49">    public Room getRandomRoom() {</a>
+<span class="sourceLineNo">050</span><a id="line.50">        // GÃ©nÃ¨re un nombre alÃ©atoire entre 0 et le nombre de piÃ¨ces dans la liste</a>
+<span class="sourceLineNo">051</span><a id="line.51">        int vRandom = this.aRandom.nextInt(this.aRooms.size());</a>
+<span class="sourceLineNo">052</span><a id="line.52">        </a>
+<span class="sourceLineNo">053</span><a id="line.53">        // Renvoie la piÃ¨ce correspondante dans la liste</a>
+<span class="sourceLineNo">054</span><a id="line.54">        return this.aRooms.get(vRandom);</a>
+<span class="sourceLineNo">055</span><a id="line.55">    }// getRandomRoom ()</a>
+<span class="sourceLineNo">056</span><a id="line.56">}// RoomRandomizer</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+</div>
+</main>
+</body>
+</html>
