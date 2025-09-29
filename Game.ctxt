@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Classe\ Game\ -\ le\ moteur\ de\ The\ Search\ for\ Satoshi\ Nakamoto.\r\n\r\n\ @author\ K\u00E9vin\ FELTRIN\r\n\ @version\ 15/02/2023\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Initialise\ une\ nouvelle\ partie\ de\ jeu.\r\n\ Cette\ m\u00E9thode\ cr\u00E9e\ les\ pi\u00E8ces,\ le\ parser\ et\ les\ mots\ de\ direction\ utilis\u00E9s\ dans\ le\ jeu.\r\n
+numComments=2

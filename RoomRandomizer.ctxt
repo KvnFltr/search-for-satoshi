@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RoomRandomizer
+comment0.text=\r\n\ La\ classe\ RoomRandomizer\ est\ utilis\u00E9e\ pour\ s\u00E9lectionner\ al\u00E9atoirement\ une\ pi\u00E8ce\ parmi\ une\ liste\ de\ pi\u00E8ces.\r\n\ Elle\ utilise\ un\ objet\ Random\ pour\ fonctionner.\r\n\ \r\n\ @author\ K.FELTRIN\r\n\ @version\ 30/04/2023\r\n
+comment1.params=
+comment1.target=RoomRandomizer()
+comment1.text=\r\n\ Construit\ un\ nouvel\ objet\ RoomRandomizer\ avec\ une\ liste\ de\ pi\u00E8ces\ vide\ et\ un\ nouvel\ objet\ Random.\r\n
+comment2.params=pRoom
+comment2.target=void\ addRoom(Room)
+comment2.text=\r\n\ Ajoute\ une\ pi\u00E8ce\ \u00E0\ la\ liste\ des\ pi\u00E8ces\ pouvant\ \u00EAtre\ choisies\ al\u00E9atoirement.\r\n\ \r\n\ @param\ pRoom\ La\ pi\u00E8ce\ \u00E0\ ajouter\ \u00E0\ la\ liste\r\n
+comment3.params=
+comment3.target=Room\ getRandomRoom()
+comment3.text=\r\n\ Renvoie\ une\ pi\u00E8ce\ choisie\ al\u00E9atoirement\ dans\ la\ liste\ des\ pi\u00E8ces.\r\n\ \r\n\ @return\ Une\ pi\u00E8ce\ choisie\ al\u00E9atoirement\r\n
+numComments=4

@@ -1,0 +1,43 @@
+go down
+take Badge
+go up
+go north
+go north
+go up
+take Key1
+go down
+go south
+go west
+go north
+take Beamer
+go south
+go east
+go east
+go north
+take Key2
+go south
+go south
+go south
+go down
+charge Beamer
+go up
+go north
+go east
+go east
+drop Key2
+take Cookie
+eat Cookie
+take Key2
+fire Beamer
+take Key3
+go up
+go north
+go east
+go south
+go west
+go down
+go north
+back
+inventory
+look
+help

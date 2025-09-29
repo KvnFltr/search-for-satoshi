@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ La\ classe\ TransporterRoom\ repr\u00E9sente\ une\ pi\u00E8ce\ dans\ un\ jeu\ qui\ transporte\ al\u00E9atoirement\ le\ joueur\ vers\ une\ autre\ pi\u00E8ce\ lorsqu'il\ tente\ de\ partir.\r\n\ Elle\ \u00E9tend\ la\ classe\ Room\ et\ utilise\ un\ objet\ RoomRandomizer\ pour\ fonctionner.\r\n\ \r\n\ @author\ K.FELTRIN\r\n\ @version\ 30/04/2023\r\n
+comment1.params=pDescription\ pImageName
+comment1.target=TransporterRoom(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Construit\ un\ objet\ TransporterRoom\ avec\ la\ description\ et\ le\ nom\ d'image\ donn\u00E9s.\r\n\ \r\n\ @param\ pDescription\ La\ description\ de\ la\ pi\u00E8ce\r\n\ @param\ pImageName\ Le\ nom\ de\ l'image\ associ\u00E9e\ \u00E0\ la\ pi\u00E8ce\r\n
+comment2.params=pDirection
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ Renvoie\ une\ pi\u00E8ce\ al\u00E9atoire\ en\ tant\ que\ sortie\ pour\ la\ direction\ donn\u00E9e.\r\n\ Remplace\ la\ m\u00E9thode\ getExit\ de\ la\ classe\ Room.\r\n\ \r\n\ @param\ pDirection\ La\ direction\ dans\ laquelle\ le\ joueur\ souhaite\ quitter\ la\ pi\u00E8ce\r\n\ @return\ Un\ objet\ pi\u00E8ce\ s\u00E9lectionn\u00E9\ al\u00E9atoirement\r\n
+comment3.params=
+comment3.target=Room\ findRandomRoom()
+comment3.text=\r\n\ Recherche\ et\ renvoie\ une\ pi\u00E8ce\ al\u00E9atoire.\r\n\r\n\ @return\ Une\ pi\u00E8ce\ al\u00E9atoire.\r\n
+comment4.params=
+comment4.target=RoomRandomizer\ getRoomRandomizer()
+comment4.text=\r\n\ Renvoie\ l'objet\ RoomRandomizer\ utilis\u00E9\ par\ la\ pi\u00E8ce\ TransporterRoom\ pour\ s\u00E9lectionner\ al\u00E9atoirement\ la\ pi\u00E8ce\ suivante.\r\n\ \r\n\ @return\ L'objet\ RoomRandomizer\r\n
+numComments=5

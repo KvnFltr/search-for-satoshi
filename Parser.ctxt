@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ Classe\ permettant\ d'analyser\ les\ commandes\ saisies\ par\ l'utilisateur.\r\n\ Elle\ extrait\ les\ mots\ cl\u00E9s\ de\ la\ cha\u00EEne\ de\ caract\u00E8res\ entr\u00E9e.\r\n\ @author\ Michael\ Kolling\ +\ David\ J.\ Barnes\ +\ K\u00E9vin\ Feltrin\r\n\ @version\ 2008.03.30\r\n\ @version\ D.Bureau\ 2013.09.15\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Constructeur\ par\ d\u00E9faut\ qui\ cr\u00E9e\ les\ deux\ objets\ pour\ les\ attributs.\r\n
+comment2.params=pInputLine
+comment2.target=Command\ getCommand(java.lang.String)
+comment2.text=\r\n\ R\u00E9cup\u00E8re\ une\ nouvelle\ commande\ de\ l'utilisateur.\r\n\ La\ commande\ est\ lue\ en\ analysant\ la\ cha\u00EEne\ de\ caract\u00E8res\ 'inputLine'.\r\n\r\n\ @param\ pInputLine\ La\ cha\u00EEne\ de\ caract\u00E8res\ contenant\ la\ commande\ entr\u00E9e\ par\ l'utilisateur.\r\n\ @return\ La\ commande\ correspondant\ \u00E0\ la\ cha\u00EEne\ de\ caract\u00E8res\ entr\u00E9e\ par\ l'utilisateur.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCommands()
+comment3.text=\r\n\ Renvoie\ la\ liste\ des\ commandes\ valides.\r\n\r\n\ @return\ Cha\u00EEne\ de\ caract\u00E8res\ contenant\ les\ commandes\ valides.\r\n
+numComments=4

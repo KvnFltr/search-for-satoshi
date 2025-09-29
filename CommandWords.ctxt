@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ Cette\ classe\ contient\ une\ table\ d'\u00E9num\u00E9ration\ de\ tous\ les\ mots\ de\ commande\ connus\ du\ jeu.\r\n\ Il\ est\ utilis\u00E9\ pour\ reconna\u00EEtre\ les\ commandes\ au\ fur\ et\ \u00E0\ mesure\ qu'elles\ sont\ saisies.\r\n\r\n\ @author\ \ K.Feltrin\r\n\ @version\ 30/04/2023\r\n
+comment1.params=pString
+comment1.target=boolean\ isCommand(java.lang.String)
+comment1.text=\r\n\ V\u00E9rifie\ si\ une\ cha\u00EEne\ de\ caract\u00E8res\ donn\u00E9e\ est\ une\ commande\ valide.\r\n\ @param\ pString\ la\ cha\u00EEne\ de\ caract\u00E8res\ \u00E0\ v\u00E9rifier\r\n\ @return\ true\ si\ la\ cha\u00EEne\ est\ une\ commande\ valide,\ false\ sinon.\r\n
+comment2.params=pString
+comment2.target=boolean\ isDirection(java.lang.String)
+comment2.text=\r\n\ V\u00E9rifie\ si\ une\ cha\u00EEne\ de\ caract\u00E8res\ est\ une\ direction\ valide.\r\n\r\n\ @param\ pString\ La\ cha\u00EEne\ de\ caract\u00E8res\ \u00E0\ v\u00E9rifier.\r\n\ @return\ true\ si\ c'est\ une\ direction\ valide,\ false\ sinon.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCommandList()
+comment3.text=\r\n\ Retourne\ une\ cha\u00EEne\ de\ caract\u00E8res\ repr\u00E9sentant\ la\ liste\ des\ commandes\ valides.\r\n\r\n\ @return\ La\ cha\u00EEne\ de\ caract\u00E8res\ repr\u00E9sentant\ la\ liste\ des\ commandes\ valides.\r\n
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Cr\u00E9\u00E9\ des\ items\ dans\ une\ pi\u00E8ce\r\n\r\n\ @author\ K.FELTRIN\r\n\ @version\ 11/04/2023\r\n
+comment1.params=pItemName\ pItemDescription\ pItemWeight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ Item.\r\n\ @param\ pItemName\ Nom\ de\ l'item\r\n\ @param\ pItemDescription\ Description\ de\ l'item\r\n\ @param\ pItemWeight\ Poids\ de\ l'item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemName()
+comment2.text=\r\n\ Accesseur\ du\ nom\ de\ l'item\r\n\ \r\n\ @return\ Nom\ de\ l'item\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ Renvoie\ la\ description\ de\ l'objet.\r\n\ @return\ La\ description\ de\ l'objet.\r\n
+comment4.params=
+comment4.target=double\ getItemWeight()
+comment4.text=\r\n\ Renvoie\ le\ poids\ de\ l'objet.\r\n\ @return\ Le\ poids\ de\ l'objet\ en\ kilogrammes.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getItemDescription()
+comment5.text=\r\n\ Renvoie\ une\ description\ compl\u00E8te\ de\ l'objet,\ incluant\ sa\ description\ et\ son\ poids.\r\n\ @return\ Une\ cha\u00EEne\ de\ caract\u00E8res\ contenant\ la\ description\ de\ l'objet\ et\ son\ poids\ en\ kilogrammes.\r\n
+numComments=6

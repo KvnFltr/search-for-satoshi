@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\r\n\ Classe\ repr\u00E9sentant\ un\ Beamer,\ h\u00E9ritant\ de\ la\ classe\ Item.\r\n\ Un\ Beamer\ est\ un\ objet\ pouvant\ stocker\ la\ r\u00E9f\u00E9rence\ d'une\ pi\u00E8ce\ charg\u00E9e.\r\n\r\n\ @author\ K\u00E9vin\ Feltrin\r\n\ @version\ 27/04/2023\r\n
+comment1.params=pItemName\ pItemDescription\ pItemWeight
+comment1.target=Beamer(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ Beamer.\r\n\ @param\ pItemName\ Le\ nom\ de\ l'objet.\r\n\ @param\ pItemDescription\ La\ description\ de\ l'objet.\r\n\ @param\ pItemWeight\ Le\ poids\ de\ l'objet.\r\n
+comment2.params=
+comment2.target=Room\ getChargedRoom()
+comment2.text=\r\n\ Getter\ pour\ la\ pi\u00E8ce\ charg\u00E9e\ par\ le\ Beamer.\r\n\ @return\ La\ pi\u00E8ce\ charg\u00E9e\ par\ le\ Beamer.\r\n
+comment3.params=pRoom
+comment3.target=void\ setChargedRoom(Room)
+comment3.text=\r\n\ Setter\ pour\ la\ pi\u00E8ce\ charg\u00E9e\ par\ le\ Beamer.\r\n\ @param\ pRoom\ La\ pi\u00E8ce\ \u00E0\ charger\ dans\ le\ Beamer.\r\n
+comment4.params=
+comment4.target=boolean\ isCharged()
+comment4.text=\r\n\ Indique\ si\ le\ Beamer\ est\ charg\u00E9\ (c'est-\u00E0-dire\ si\ une\ pi\u00E8ce\ y\ est\ stock\u00E9e).\r\n\ @return\ Vrai\ si\ une\ pi\u00E8ce\ est\ charg\u00E9e\ dans\ le\ Beamer,\ faux\ sinon.\r\n
+numComments=5

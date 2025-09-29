@@ -1,0 +1,17 @@
+#Sun May 21 17:09:39 CEST 2023
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=K\u00E9vin FELTRIN
+bluej.teamsettings.git.server=git.esiee.fr
+bluej.teamsettings.yourEmail=kevin.feltrin@edu.esiee.fr
+bluej.teamsettings.git.repositoryPrefix=/feltrink/the-search-for-satoshi.git
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=feltrink
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ Classe\ repr\u00E9sentant\ une\ porte.\r\n\ @author\ \ K.Feltrin\r\n\ @version\ 16/05/2023\r\n
+comment1.params=
+comment1.target=Door()
+comment1.text=\r\n\ Constructeur\ par\ d\u00E9faut\ de\ la\ porte.\r\n\ La\ porte\ est\ initialement\ d\u00E9verrouill\u00E9e.\r\n
+comment2.params=pKeys
+comment2.target=void\ setNecessaryKeys(Item[])
+comment2.text=\r\n\ D\u00E9finit\ les\ cl\u00E9s\ n\u00E9cessaires\ pour\ ouvrir\ la\ porte.\r\n\r\n\ @param\ pKeys\ Les\ cl\u00E9s\ n\u00E9cessaires\ pour\ ouvrir\ la\ porte.\r\n
+comment3.params=
+comment3.target=Item[]\ getKeys()
+comment3.text=\r\n\ R\u00E9cup\u00E8re\ les\ cl\u00E9s\ n\u00E9cessaires\ pour\ ouvrir\ la\ porte.\r\n\r\n\ @return\ Les\ cl\u00E9s\ n\u00E9cessaires\ pour\ ouvrir\ la\ porte.\r\n
+comment4.params=
+comment4.target=boolean\ isLocked()
+comment4.text=\r\n\ V\u00E9rifie\ si\ la\ porte\ est\ verrouill\u00E9e.\r\n\r\n\ @return\ true\ si\ la\ porte\ est\ verrouill\u00E9e,\ sinon\ false.\r\n
+comment5.params=pLocked
+comment5.target=void\ setLocked(boolean)
+comment5.text=\r\n\ D\u00E9finit\ l'\u00E9tat\ de\ verrouillage\ de\ la\ porte.\r\n\r\n\ @param\ pLocked\ true\ pour\ verrouiller\ la\ porte,\ false\ pour\ d\u00E9verrouiller\ la\ porte.\r\n
+comment6.params=pInventory
+comment6.target=boolean\ tryToUnlock(java.util.HashMap)
+comment6.text=\r\n\ Tente\ de\ d\u00E9verrouiller\ la\ porte\ en\ utilisant\ les\ cl\u00E9s\ pr\u00E9sentes\ dans\ l'inventaire.\r\n\r\n\ @param\ pInventory\ L'inventaire\ contenant\ les\ cl\u00E9s.\r\n\ @return\ true\ si\ la\ porte\ a\ \u00E9t\u00E9\ d\u00E9verrouill\u00E9e\ avec\ succ\u00E8s,\ sinon\ false.\r\n
+numComments=7
